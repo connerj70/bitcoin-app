@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+  font-family: sans-serif;
+  display: grid;
+  grid-template-columns: repeat(12 1fr);
+  grid-template-rows: auto auto;
+}
+
+
+
+
+

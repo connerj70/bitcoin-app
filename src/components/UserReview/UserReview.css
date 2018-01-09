@@ -1,0 +1,97 @@
+.user-review {
+    width: 90%;
+    height: 150px;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas:
+    "p c c c c"
+    "p c c c c"
+    ". c c c c"
+    ". c c c c";
+    grid-gap: 1px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.user-photo {
+    width: 80px;
+    height: 80px;
+    grid-area: p;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.review-content {
+    margin-top: 5px;
+    width: 98%;
+    grid-area: c;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+    "h h h h"
+    "s s s s"
+    "c c c c"
+    "f f f f";
+}
+
+.review-general {
+    width: 96%;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.review-header {
+    grid-area: h;
+    font-weight: 700;
+}
+
+.review-stuff {
+    grid-area: s;
+    font-size: 11px;
+}
+
+.review-content2 {
+    grid-area: c;
+    height: 50px;
+    font-size: 14px;
+}
+
+.review-footer {
+    grid-area: f;
+    font-size: 13px;
+}
+
+.blue {
+    color: blue;
+}
+
+i {
+    margin-right: 5px;
+}
+
+#stars {
+    float: right;
+}
+
+.fa-star {
+    color: purple;
+}
+
+.fa-clock-o {
+    margin-left: 5px;
+}
+
+#thumbs {
+    float:right;
+}
+
+.thumbs-container-up {
+    margin-right: 10px;
+    color: green;
+}
+
+.thumbs-container-down {
+    margin-right: 10px;
+    color: red;
+}

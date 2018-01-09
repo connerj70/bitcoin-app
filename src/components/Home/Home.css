@@ -1,0 +1,88 @@
+.home-wrapper {
+    padding-top: 70px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 175px 120px auto;
+    grid-template-areas: 
+        "c1 c1 c1 c2 c2 c2 c3 c3 c3 c4 c4 c4"
+        "f1 f1 f2 f2 f3 f3 f4 f4 f5 f5 f6 f6"
+        "s s s s s s s s s s s s"
+}
+
+.chart1 {
+    grid-area: c1;
+    border-radius: 4px;
+}
+
+.chart2 {
+    grid-area: c2;
+
+    border-radius: 4px;
+}
+.chart3 {
+    grid-area: c3;
+    border-radius: 4px;
+}
+.chart4 {
+    grid-area: c4;
+    border-radius: 4px;
+}
+
+.feature1 {
+    grid-area: f1;
+}
+
+.feature2 {
+    grid-area: f2;
+}
+
+.feature3 {
+    grid-area: f3;
+}
+
+.feature4 {
+    grid-area: f4;
+}
+
+.feature5 {
+    grid-area: f5;
+}
+
+.feature6 {
+    grid-area: f6;
+}
+
+.mid-social {
+    grid-area: s;
+    height: 200px;
+}
+
+.mid-social h3 {
+    color: #a3a3a3;
+}
+
+.panel-heading {
+    width: 95%;
+    height: 40px;
+    background-color: #79BF81;
+    margin: 0 auto;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: left;
+    color: #fff;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.pic {
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.review-container {
+    border: 1px solid #d3d3d3;
+    width: 96%;
+    margin: 0 auto;
+}
