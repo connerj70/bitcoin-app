@@ -6,6 +6,7 @@
   display: grid;
   grid-template-columns: repeat(12 1fr);
   grid-template-rows: auto auto;
+  background-color: #f4f9ff;  
 }
 
 
