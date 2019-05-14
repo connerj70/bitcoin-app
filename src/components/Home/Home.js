@@ -516,7 +516,7 @@ class Home extends Component {
 
         return (
             <div className="home-wrapper">
-                <div className="chart-continer">
+                <div className="chart-container">
                     <div className="chart1">
                         <Line
                             data={data}
@@ -628,53 +628,55 @@ class Home extends Component {
                         />
                     </div>
                 </div>
-                <div className="feature1">
-                    <PriceBox
-                        price={this.state.currentBtcData.price}
-                        percent={this.state.currentBtcData.percent}
-                        volume={this.state.currentBtcData.volume}
-                        name="BTC"
-                    />
-                </div>
-                <div className="feature2">
-                    <PriceBox
-                        price={this.state.currentEthData.price}
-                        percent={this.state.currentEthData.percent}
-                        volume={this.state.currentEthData.volume}
-                        name="ETH"
-                    />
-                </div>
-                <div className="feature3">
-                    <PriceBox
-                        price={this.state.currentBchData.price}
-                        percent={this.state.currentBchData.percent}
-                        volume={this.state.currentBchData.volume}
-                        name="BCH"
-                    />
-                </div>
-                <div className="feature4">
-                    <PriceBox
-                        price={this.state.currentXmrData.price}
-                        percent={this.state.currentXmrData.percent}
-                        volume={this.state.currentXmrData.volume}
-                        name="XMR"
-                    />
-                </div>
-                <div className="feature5">
-                    <PriceBox
-                        price={this.state.currentXprData.price}
-                        percent={this.state.currentXprData.percent}
-                        volume={this.state.currentXprData.volume}
-                        name="XRP"
-                    />
-                </div>
-                <div className="feature6">
-                    <PriceBox
-                        price={this.state.currentLtcData.price}
-                        percent={this.state.currentLtcData.percent}
-                        volume={this.state.currentLtcData.volume}
-                        name="LTC"
-                    />
+                <div className="feature-container">
+                    <div className="feature1">
+                        <PriceBox
+                            price={this.state.currentBtcData.price}
+                            percent={this.state.currentBtcData.percent}
+                            volume={this.state.currentBtcData.volume}
+                            name="BTC"
+                        />
+                    </div>
+                    <div className="feature2">
+                        <PriceBox
+                            price={this.state.currentEthData.price}
+                            percent={this.state.currentEthData.percent}
+                            volume={this.state.currentEthData.volume}
+                            name="ETH"
+                        />
+                    </div>
+                    <div className="feature3">
+                        <PriceBox
+                            price={this.state.currentBchData.price}
+                            percent={this.state.currentBchData.percent}
+                            volume={this.state.currentBchData.volume}
+                            name="BCH"
+                        />
+                    </div>
+                    <div className="feature4">
+                        <PriceBox
+                            price={this.state.currentXmrData.price}
+                            percent={this.state.currentXmrData.percent}
+                            volume={this.state.currentXmrData.volume}
+                            name="XMR"
+                        />
+                    </div>
+                    <div className="feature5">
+                        <PriceBox
+                            price={this.state.currentXprData.price}
+                            percent={this.state.currentXprData.percent}
+                            volume={this.state.currentXprData.volume}
+                            name="XRP"
+                        />
+                    </div>
+                    <div className="feature6">
+                        <PriceBox
+                            price={this.state.currentLtcData.price}
+                            percent={this.state.currentLtcData.percent}
+                            volume={this.state.currentLtcData.volume}
+                            name="LTC"
+                        />
+                    </div>
                 </div>
                 <div className="mid-social">
                     <div id="line-chart-div2">
