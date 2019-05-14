@@ -5,20 +5,20 @@
     justify-content: space-between;
     background-color: #2b5a99;
     color: #fff;
-    box-shadow: 0px 3px 3px black;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.493);
     width: 80%;
 }
 
-.main-nav>div>ul {
+.main-nav > div > ul {
     display: flex;
     list-style: none;
 }
 
-.main-nav>div>ul>li {
+.main-nav > div > ul > li {
     margin-left: 15px;
 }
 
-.main-nav>div>ul>li:hover {
+.main-nav > div > ul > li:hover {
     color: #ffe800;
     cursor: pointer;
 }
@@ -33,15 +33,67 @@
     margin-top: -3px;
 }
 
-.special-li>span {
-    color: #74D485;
+a > span {
+    color: #74d485;
+    transition: all 0.4s;
 }
 
-.main-nav>input {
+a > span:hover {
+    color: #fff;
+}
+
+.right-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.right-container > input {
     margin-right: 20px;
     height: 20px;
-    margin-top: 10px;
-    border-radius: 4px;
+    border-radius: 10px;
     margin-left: 15px;
     padding: 2px 5px;
+    box-shadow: -1px -1px -1px #fff;
+}
+
+.user-picture {
+    height: 35px;
+    width: 35px;
+    margin-left: 15px;
+}
+
+.user-input-container {
+    display: flex;
+    align-items: center;
+}
+
+.login-button {
+    padding: 6px 17px;
+    border: none;
+    background-color: #fa8749;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.login-button:hover {
+    background-color: #fff;
+    color: #da8744;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #ffe800;
+    cursor: pointer;
 }

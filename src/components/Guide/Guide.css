@@ -1,0 +1,23 @@
+.guide-comp-container {
+    width: 45%;
+    height: 15vw;
+    background-color: #FFFBD8;
+    display: flex;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.guide-comp-container>div>img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+#second-div {
+    font-size: 14px;
+    line-height: 1.5rem;
+    margin-top: 20px;
+}

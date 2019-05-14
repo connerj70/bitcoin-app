@@ -11,7 +11,7 @@ class UserReview extends Component {
     render() {
         return (
             <div className="user-review">
-                    <div className="user-photo"><img src="https://www.cryptocompare.com/media/350777/hashflare-ethereum.png?anchor=center&mode=crop&width=80&height=80" /></div>
+                    <div className="user-photo"><img alt='review' src="https://www.cryptocompare.com/media/350777/hashflare-ethereum.png?anchor=center&mode=crop&width=80&height=80" /></div>
                     <div className="review-content">
                         <div className="review-general review-header">Ethereum Medium Mining Contract</div>
                         <div className="review-general review-stuff">

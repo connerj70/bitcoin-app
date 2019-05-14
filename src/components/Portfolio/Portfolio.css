@@ -1,0 +1,7 @@
+.portfolio-wrapper {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #d3d3d3;
+    border: 1px solid #d3d3d3;
+}
